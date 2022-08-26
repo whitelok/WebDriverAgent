@@ -50,3 +50,5 @@ Modules/module.modulemap
 
 # test run
 *.trace
+
+package-lock.json
