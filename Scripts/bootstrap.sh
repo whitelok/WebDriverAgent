@@ -67,7 +67,8 @@ function build_inspector() {
   cd "$INSPECTOR_DIR"
 
   echo "Fetching Inspector dependencies..."
-  npm install
+  # npm install
+  npm install --legacy-peer-deps
 
   echo "Validating Inspector"
   "$INSPECTOR_DIR"/node_modules/.bin/eslint js/*
