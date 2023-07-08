@@ -52,3 +52,5 @@ Modules/module.modulemap
 *.trace
 
 package-lock.json
+
+.*xcshareddata/
