@@ -54,3 +54,4 @@ Modules/module.modulemap
 package-lock.json
 
 .*xcshareddata/
+WebDriverAgent.xcodeproj/project.xcworkspace/xcshareddata/
