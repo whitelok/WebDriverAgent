@@ -89,7 +89,8 @@ const CGFloat FBMinimumTouchEventDelay = 0.1f;
   if (self.fb_isVisible) {
     return YES;
   }
-  __block NSArray<XCElementSnapshot *> *cellSnapshots, *visibleCellSnapshots;
+  __block NSArray<XCElementSnapshot *> *cellSnapshots;
+  __block NSArray<XCElementSnapshot *> *visibleCellSnapshots;
 
   NSArray *acceptedParents = @[
                                @(XCUIElementTypeScrollView),
